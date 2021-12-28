@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+    <script src='r2slideshow.js'></script>
+	
+
+</head>
+<style>
+    .mySlides {
+        display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+        cursor: pointer
+    }
+
+    .w3-badge {
+        height: 13px;
+        width: 13px;
+        padding: 0
+    }
+</style>
+
+<!-- Title Bar -->
+
+
+<body>
+<div id="google_translate_element"></div>
+<div id="google_translate_element"></div>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+    <div class="r1parent">
+        <div class="r1child1 space home-title">
+            <a href="home.html">Project Indigo</a>
+        </div>
+
+        <div class="r1child2">
+            <div class="space home-links">
+                <a href="login.html">Login </a>
+            </div>
+
+            <div class="space home-links">
+                <a href="resgister.html">Quiz</a>
+            </div>
+
+            <div class="space home-links">
+                <a href="learnlanguage.html">Learn Language </a>
+            </div>
+            <div class="space home-links">
+                <a href="Aboutus.html">About us</a>
+            </div>
+            <div class="space home-links">
+                <a href="contactus.html">Contact Us</a>
+            </div>
+        </div>
+		
+    </div>
+
+
+    <!-- Image Slide show -->
+    <div class="w3-container">
+        <h2>Slideshow Indicators</h2>
+        <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user
+            is currently viewing.</p>
+    </div>
+    <div class="w3-content w3-display-container" style="max-width:800px">
+        <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
+        <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
+        <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+            style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+    </div>
+
+
+
+<p>This example displays a simple translate button, with no text.</p>
+</body>
+
+</html>

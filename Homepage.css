@@ -1,0 +1,93 @@
+html,body{
+    margin: 0;
+}
+
+body{
+    background-image: url("homeBackground.jpg");
+}
+
+.tops{
+    
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.style{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.style2{
+   
+        
+        background: linear-gradient(rgb(255, 167, 2),white,green);
+        -webkit-text-fill-color: transparent;
+        font-family: "Brush Script MT";
+        -webkit-background-clip: text;
+        font-weight: bolder;
+        font-size: 27px;
+}
+
+.mid_section{
+    color: white;
+
+    height: 300px;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_section{
+    margin-top: 270px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+
+}
+
+.bt1{
+    color: white;
+    background-color: royalblue;
+    border :0px;
+    border-bottom: solid 2px;
+    border-radius: 5px;
+    border-color: slateblue;
+    box-shadow: 0 2px rgb(68, 68, 102);
+}
+
+.bt2{
+    color: white;
+    background-color: rgb(77, 90, 64);
+    border :0px;
+    border-bottom: solid 2px;
+    border-radius: 5px;
+    border-color: rgba(228, 226, 241, 0.418);
+    box-shadow: 0 2px rgba(209, 209, 236, 0.541);
+}
+.bt1:hover {background-color: #3e8e41}
+
+.bt1:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+  .bt2:hover {background-color: #5c474c}
+  .bt2:active{
+    background-color: #a55db8;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
